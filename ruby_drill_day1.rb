@@ -12,10 +12,24 @@
 
 # とターミナルに表示されるような変数hashを作成するためのコードをシンボルを使って記述してください。
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 答え
 hash = {one:1, two:2, three:3}
 puts hash.keys
 puts hash.values
 
-# 変数 = {key1:value1, key2:value2, .....}
-# puts 変数.keys => キーを出力
-# puts 変数.values => バリューを出力
+# オブジェクト = {key1:value1, key2:value2, .....}
+# keysメソッド：オブジェクト.keys => キーを出力
+# valueメソッド：オブジェクト.values => バリューを出力
