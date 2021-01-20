@@ -28,21 +28,21 @@
 
 #答え
 class Article
-  def initialize(author, title, content)
+  def initialize(author, title, content)  #initializeメソッド
     @author = author
     @title = title
     @content = content
-  end
+  end 
 
-  def author
+  def author　#インスタンスメソッド
     @author
   end
 
-  def title
+  def title　#インスタンスメソッド
     @title
   end
 
-  def content
+  def content　#インスタンスメソッド
     @content
   end
 
