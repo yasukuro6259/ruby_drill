@@ -8,6 +8,14 @@
 # in1to10(11,false) →False
 # in1to10(11,true) →True
 
+def in1to10(num, outside_mode)
+  # ここに条件式を記述する
+end
+
+
+
+
+
 puts "数値を入力"
 num = gets.to_i
 if num >= 1 && num <=  10
