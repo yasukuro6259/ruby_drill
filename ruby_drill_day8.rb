@@ -18,6 +18,13 @@
 # puts array.include?("hoge") => false
 
 
+
+
+
+
+
+
+# 答え
 def nameCheck(inputName)
   if inputName.include?(".")
     puts "エラー!記号は登録できません"
@@ -31,5 +38,3 @@ end
 puts "名前を入力してください"
 name = gets.to_s
 nameCheck(name)
-
-
