@@ -10,16 +10,24 @@
 # police_trouble(false, false) → True
 # police_trouble(true, true) → True
 
+
+
+
+
+
+
+
+
+#答え
 def police_trouble(a, b)
-  if a && b
+  if (a && b) || ( !a && !b) #if文は条件式がtrue or falseしか判断しない。
     puts "True"
-  elsif a = false && b = false
-    puts "True"
-  else puts "False"
+  else
+    puts "False"
   end
 end
 
-# police_trouble(true, true)
-# police_trouble(false, true)
+police_trouble(true, true)
 police_trouble(true, false)
-# police_trouble(false, false)
+police_trouble(false, false)
+police_trouble(false, true)
